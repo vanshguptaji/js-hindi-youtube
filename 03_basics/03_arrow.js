@@ -8,6 +8,7 @@ const user = {
     }
 
 }
+//this refers to the current context of the scope
 
 // user.welcomeMessage()
 // user.username = "sam"
@@ -17,7 +18,7 @@ const user = {
 
 // function chai(){
 //     let username = "hitesh"
-//     console.log(this.username);
+//     console.log(this.username);//this gives undefined
 // }
 
 // chai()
