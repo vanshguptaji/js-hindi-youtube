@@ -37,14 +37,14 @@
 
     // document.getElementById('owl').addEventListener('click', function(e){
     //     console.log("owl clicked");
-    //     e.stopPropagation()
+    //     e.stopPropagation() //this stops the bubbling effect 
     // }, false)
     
     // document.getElementById('google').addEventListener('click',function(e){
-    //     e.preventDefault();
+    //     e.preventDefault(); //used in stopping the link propogation
     //     e.stopPropagation()
     //     console.log("google clicked");
-    // }, false)
+    // }, false)//false is for event bubbling and true is for event capturing
    
     
     document.querySelector('#images').addEventListener('click', function(e){
