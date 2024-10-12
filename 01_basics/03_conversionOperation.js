@@ -53,10 +53,10 @@ let str3 = str1 + str2
 
 // console.log( (3 + 4) * 5 % 3);
 
-// console.log(+true);//converts into number
+// console.log(+true);//converts into number //returns 1
 // console.log(typeof(+true));
 
-// console.log(+"");
+// console.log(+"");//returns 0
 
 let num1, num2, num3
 

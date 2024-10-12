@@ -40,11 +40,11 @@ const chai =  () => {
 //     return num1 + num2
 // }
 
-// const addTwo = (num1, num2) =>  num1 + num2
+// const addTwo = (num1, num2) =>  num1 + num2 //implicit return this returns
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "hitesh"}) //this returns an object in arrow keyword
 
 
 console.log(addTwo(3, 4))
