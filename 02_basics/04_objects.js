@@ -63,7 +63,7 @@ const course = {
 
 // course.courseInstructor
 const {courseInstructor: instructor} = course //courseInstructor: instructor this does is now course instructor can be used as instructor
-console.log(courseInstructor);//by this method we can also print 
+console.log(instructor);//by this method we can also print 
 
 
 // console.log(courseInstructor);

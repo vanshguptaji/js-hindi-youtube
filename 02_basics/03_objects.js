@@ -17,7 +17,7 @@ const JsUser = {
     lastLoginDays: ["Monday", "Saturday"]
 }
 
-// console.log(JsUser.email)//this can be done but should be avoided instead us [] to access
+// console.log(JsUser.email)//this can be done but should be avoided instead use [] to access
 // console.log(JsUser["email"]) 
 // console.log(JsUser["full name"])
 // console.log(JsUser[mySym])
